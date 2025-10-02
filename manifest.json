@@ -1,0 +1,23 @@
+{
+  "short_name": "Yume",
+  "name": "Yume",
+  "description": "Find your calm through mindful breathing. A simple, elegant app designed to help you find a moment of peace through guided breathing exercises.",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#0f172a",
+  "background_color": "#0f172a"
+}

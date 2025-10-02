@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yume</title>
+    
+    <!-- PWA & Capacitor -->
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#0f172a">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <script src="https://unpkg.com/@capacitor/core@latest/dist/capacitor.js"></script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.22.0"
+  }
+}
+</script>
+<style>
+  :root {
+    --color-primary: 139 92 246;
+    --color-primary-light: 167 139 250;
+    --color-primary-dark: 124 58 237;
+    --color-secondary: 86 17 151;
+    --color-text: 226 232 240;
+    --color-text-muted: 148 163 184;
+    --color-bg: 15 23 42;
+    --color-bg-offset: 30 41 59;
+    --color-bg-transparent: 15 23 42 / 0.8;
+    --color-border: 71 85 105;
+    --color-danger: 220 38 38;
+    --color-success: 74 222 128;
+  }
+</style>
+</head>
+  <body class="bg-[rgb(var(--color-bg))]">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

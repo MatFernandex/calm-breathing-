@@ -1,0 +1,9 @@
+{
+  "appId": "com.yume.app",
+  "appName": "Yume",
+  "webDir": ".",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  }
+}
